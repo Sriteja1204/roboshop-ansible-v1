@@ -1,0 +1,11 @@
+MONGODB_HOST: mongodb-{{ env }}.daws-90s.space
+REDIS_HOTS: redis-{{ env }}.daws-90s.space
+MYSQL_HOST: mysql-{{ env }}.daws-90s.space
+RABBITMQ_HOTS: rabbitmq-{{ env }}.daws-90s.space
+CATALOGUE_HOTS: catalogue-{{ env }}.daws-90s.space
+USER_HOTS: user-{{ env }}.daws-90s.space
+CART_HOTS: cart-{{ env }}.daws-90s.space
+SHIPPING_HOTS: shipping-{{ env }}.daws-90s.space
+PAYMENT_HOTS: payment-{{ env }}.daws-90s.space
+
+

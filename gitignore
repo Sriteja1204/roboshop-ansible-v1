@@ -1,0 +1,30 @@
+# Ansible Vault
+vault.txt
+.vault_pass.txt
+*vault_pass*
+
+# Ansible artifacts
+*.retry
+ec2_output.json
+inventory_dynamic.ini
+
+# AWS / secrets
+*.pem
+*.key
+.aws/
+credentials
+
+# Terraform (if mixed into this repo)
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Logs
+*.log
+ansible.log
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.swp
